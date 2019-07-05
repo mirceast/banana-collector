@@ -2,7 +2,7 @@
 
 In this project, we trained agents to solve the task of collecting as many yellow bananas as possible in 300 time steps, while avoiding blue bananas. The environment is implemented in [unityagents](https://pypi.org/project/unityagents/#description).
 
-Each state is 37-dimensional and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.
+Each state is 37-dimensional and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction.
 
 ### Implementation
 We use the [DQN method](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) to train our reinforcement learning agents. By interacting with the environment and receiving rewards, the agent improves the estimate of the state-action value function Q(s,a). If this estimate converges to the true state-action value function, the optimal policy is easily recovered by always choosing the action with the largest expected return (greedy action selection). 
