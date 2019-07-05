@@ -87,9 +87,6 @@ def dqn(agent, env, solved_score, n_episodes=600, max_t=1000,
 
 
 def smooth_scores(scores, n_smooth=51):
-    if n_smooth%2 == 0:
-        raise Exception("Please choose an odd number to use for smoothing")
-    n_discarded = int((n_smooth-1)/2)
     smoothed = np.zeros_like(scores)
     sx, sy, sz = scores.shape
     for i in range(sx):
