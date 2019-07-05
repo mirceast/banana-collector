@@ -30,7 +30,7 @@ If you haven't already, please follow the instructions in the [DRLND GitHub repo
 	(For Windows users) The ML-Agents toolkit supports Windows 10. While it might be possible to run the ML-Agents toolkit using other versions of Windows, it has not been tested on other versions. Furthermore, the ML-Agents toolkit has not been tested on a Windows VM such as Bootcamp or Parallels.
 
 	**NOTE**:
-	This project uses certain functionalities of PyTorch 1.1, which are not available in version 0.4.0 which are not installed with Udacity's DRLND repository. Therefore, after setting up everything and assuming you're using conda, make sure you run the following commands:
+	This project uses certain functionalities of PyTorch 1.1, which are not available in version 0.4.0, the version installed with Udacity's DRLND repository. Therefore, after setting up everything and assuming you're using conda, make sure you run the following commands:
 
 	```
 	pip uninstall torch
